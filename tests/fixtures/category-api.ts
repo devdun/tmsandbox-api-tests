@@ -1,13 +1,8 @@
 import { test as base, expect } from '@playwright/test';
 
 interface Promotion {
-  Id: number;
   Name: string;
   Description: string;
-  Price: number;
-  OriginalPrice?: number;
-  Recommended?: boolean;
-  MinimumPhotoCount: number;
 }
 
 export interface CategoryDetails {
