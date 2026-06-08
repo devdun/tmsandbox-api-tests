@@ -1,0 +1,13 @@
+{
+  "name": "tmsandbox-api-tests",
+  "version": "1.0.0",
+  "description": "API test automation for Trade Me sandbox using Playwright and TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "typescript": "^5.4.0"
+  }
+}
